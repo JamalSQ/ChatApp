@@ -1,0 +1,109 @@
+/* login and sign up css */
+.maint{
+    font-family:Cascadia Code ExtraLight;
+    justify-content: center;
+    padding-right: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center; 
+  }
+  .bc-img {
+    position: relative;
+    height: 100vh;
+    background-image: url(img/8.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .bc-side-img{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* end login and sign up css */
+
+  /* start inner app css */
+  .ml-6{
+    margin-left: 60px;
+  }
+  .ml-10{
+    margin-left: 100px;
+  }
+  .ml-3{
+    margin-left: 36px;
+  }
+  .mt3{
+    margin-top: -36px;
+  }
+  /* chat section  css */
+
+  .otherp-chat{
+    background-color: rgba(255, 255, 255, 0.253);
+    max-width: 300px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 20px 0px 0px;
+    letter-spacing: 1px;
+    font-size: 15px;  
+  }
+  .otherp-chat da{
+    font-size: 10px;
+  }
+  .my-chat{
+    background-color: rgba(255, 255, 255, 0.253);
+    max-width: 600px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px 10px 0px 0px;
+    letter-spacing: 1px;
+    font-size: 15px; 
+    margin-top: 80px;
+  }
+  .my-chat da{
+    font-size: 10px;
+  }
+
+/* Search box css */
+.search-box{
+  width: 0px;
+  overflow: hidden;
+  margin-top: 0px;
+  transition: width 0.3s, margin-left 0.3s;
+}
+
+.cicon{
+  cursor: pointer;
+  color: black;
+}
+
+/* scrollbar css */
+/* Track */
+::-webkit-scrollbar {
+  width: 2px; /* Width of the scrollbar */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #ddd; /* Color of the scrollbar track on hover */
+}
